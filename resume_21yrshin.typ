@@ -188,29 +188,12 @@
   #meta("버전 관리 및 CI / CD", [GitLab, Jenkins])
 ]
 
-#v(0.48em)
-#project-block[
-  #subentry-header("신규 솔루션 개발 (API Management 솔루션)", "")
-  #v(0.05em)
-  #bullet[다수의 백엔드 서비스를 Spring Cloud Gateway로 통합]
-  #bullet[기존 N개 단일 서버로 요청 → 통합 API Gateway + 서비스 분리 구조로 전환하여 클라이언트 개발경험 개선]
-  #v(0.3em)
-  #meta("기술 스택", [
-    Java, Spring Boot (Spring Gateway, QueryDSL-SQL, QueryDSL-JPA)
-    #linebreak()
-    PostgreSQL, H2
-    #linebreak()
-    Vue3 (Vue Router, Pinia, Axios)
-  ])
-  #v(0.08em)
-  #meta("버전 관리 및 CI / CD", [GitLab, Jenkins])
-]
-
-#v(0.7em)
-#entry-header("더커머스(원셀)", "2024.06 ~ 2024.12")
-#text(9pt, weight: "semibold")[백엔드 개발자]
-#linebreak()
-#text(8.45pt, fill: soft)[셀러가 다양한 쇼핑 플랫폼에서 상품과 주문을 관리할 수 있는 통합 관리 솔루션 운영 및 개발]
+#block(breakable: false)[
+  #v(0.7em)
+  #entry-header("더커머스(원셀)", "2024.06 ~ 2024.12")
+  #text(9pt, weight: "semibold")[백엔드 개발자]
+  #linebreak()
+  #text(8.45pt, fill: soft)[셀러가 다양한 쇼핑 플랫폼에서 상품과 주문을 관리할 수 있는 통합 관리 솔루션 운영 및 개발]
 
 #v(0.38em)
 #project-block[
@@ -261,6 +244,7 @@
   ])
   #v(0.08em)
   #meta("버전 관리 및 CI / CD", [GitLab, Jenkins])
+]
 ]
 
 #section-title("PROJECTS & CONTRIBUTIONS")

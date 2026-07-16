@@ -190,29 +190,12 @@
   #meta("Version Control / CI/CD", [GitLab, Jenkins])
 ]
 
-#v(0.48em)
-#project-block[
-  #subentry-header("New Solution (API Management Solution) Development", "")
-  #v(0.05em)
-  #bullet[Integrated multiple backend services through Spring Cloud Gateway.]
-  #bullet[Moved client requests from separate single-server endpoints to a unified API Gateway and separated service structure, improving client development workflow.]
-  #v(0.3em)
-  #meta("Skills", [
-    Java, Spring Boot (Spring Gateway, QueryDSL-SQL, QueryDSL-JPA)
-    #linebreak()
-    PostgreSQL, H2
-    #linebreak()
-    Vue3 (Vue Router, Pinia, Axios)
-  ])
-  #v(0.08em)
-  #meta("Version Control / CI/CD", [GitLab, Jenkins])
-]
-
-#v(0.7em)
-#entry-header("TheCommerce (OneSell)", "2024.06 ~ 2024.12")
-#text(9pt, weight: "semibold")[Backend Developer]
-#linebreak()
-#text(8.45pt, fill: soft)[Maintained and developed an integrated commerce management solution for sellers who manage products and orders across multiple shopping platforms.]
+#block(breakable: false)[
+  #v(0.7em)
+  #entry-header("TheCommerce (OneSell)", "2024.06 ~ 2024.12")
+  #text(9pt, weight: "semibold")[Backend Developer]
+  #linebreak()
+  #text(8.45pt, fill: soft)[Maintained and developed an integrated commerce management solution for sellers who manage products and orders across multiple shopping platforms.]
 
 #v(0.38em)
 #project-block[
@@ -263,6 +246,7 @@
   ])
   #v(0.08em)
   #meta("Version Control / CI/CD", [GitLab, Jenkins])
+]
 ]
 
 #section-title("PROJECTS & CONTRIBUTIONS")
