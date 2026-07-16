@@ -243,7 +243,7 @@
     AWS (EC2, SQS, ECS, Lambda, VPC, CloudWatch …)
   ])
   #v(0.08em)
-  #meta("버전 관리 및 CI / CD", [GitLab, Jenkins])
+  #meta("버전 관리 및 CI / CD", [BitBucket, Jenkins])
 ]
 ]
 
